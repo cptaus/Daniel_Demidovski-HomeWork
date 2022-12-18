@@ -6,18 +6,7 @@ import os
 
 class BestBusCompany:
     """ CLASS FOR HOLDING
-        ALL INFO ABOUT COMPANY OPS
-
-        DATA STRUCTURE:
-        ROUTES= {LINE_NUMBER:{ORIGIN: STR,
-                              DEST: STR,
-                              STOPS: [ORDERED],
-                              RIDES: [RIDES_ID]}}
-
-        RIDES= {ID:{ORIGIN_T: time,
-                    DESTINATION_T: time,
-                    DRIVER_NAME: STR
-                    DELAYS: LIST}}"""
+        ALL INFO ABOUT COMPANY OPS"""
 
     def __init__(self):
         self.__routes = []
